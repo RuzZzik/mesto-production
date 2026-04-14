@@ -199,7 +199,7 @@ const handleCardFormSubmit = (evt) => {
 };
 
 const handleLikeClick = ({ cardId, isLiked, likeButton, likeCountElement }) => {
-  changeLikeCardStatus(cardId, isLiked)
+  changeLikeCardStatus(cardId, !isLiked)
     .then((cardData) => {
       likeButton.classList.toggle(
         "card__like-button_is-active",
