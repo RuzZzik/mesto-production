@@ -1,0 +1,20 @@
+@import url('./__content/page__content.css');
+@import url('./__section/page__section.css');
+
+.page {
+  background: #000;
+}
+
+.page__connection-error {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  color: #ff6;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.page__connection-error[hidden] {
+  display: none !important;
+}
